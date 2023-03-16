@@ -2,22 +2,23 @@ import time
 
 from fake_useragent import UserAgent
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 
-from auth_data import name, password, user_name, user_password
+from auth_data import user_name, user_password, name, password
 
 url = "http://fishing.kiev.ua/vb3/"
 
 user_agent = UserAgent()
-options = webdriver.FirefoxOptions()
+options = webdriver.ChromeOptions()
 
-options.set_preference("general.useragent.override", user_agent.random)
+options.add_argument(f"user-agent={user_agent.random}")
+options.add_argument("--start-maximized")
 
-driver = webdriver.Firefox(
-    service=Service(GeckoDriverManager().install()),
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()),
     options=options
 )
 
@@ -44,5 +45,3 @@ except Exception as ex:
 finally:
     driver.close()
     driver.quit()
-
-
