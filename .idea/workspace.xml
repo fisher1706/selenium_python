@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfdcf77-6757-4bdf-b891-aad5f349076e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver/selenuimCookiesChrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver/zapefondy@gmail.com_cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firefoxdriver/selenuiumCookiesFirefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver/selenium_webdriver_mode_chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firefoxdriver/selenium_webdriver_mode_firefox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver/auth_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver/auth_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver/seleniumForm_chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver/seleniumFormChrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firefoxdriver/auth_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/firefoxdriver/auth_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firefoxdriver/seleniumForm_firefox.py" beforeDir="false" afterPath="$PROJECT_DIR$/firefoxdriver/seleniumFormFirefox.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +45,7 @@
       <recent name="$PROJECT_DIR$/firefoxdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.selenuiumCookiesFirefox">
-    <configuration name="main_firefox (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/firefoxdriver" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firefoxdriver/main_firefox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.selenium_webdriver_mode_firefox">
     <configuration name="main_firefox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,28 +68,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seleniumFormChrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chromedriver" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chromedriver/seleniumFormChrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="seleniumFormFirefox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +82,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firefoxdriver/seleniumFormFirefox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_webdriver_mode_chrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chromedriver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chromedriver/selenium_webdriver_mode_chrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_webdriver_mode_firefox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/firefoxdriver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firefoxdriver/selenium_webdriver_mode_firefox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.selenium_webdriver_mode_firefox" />
+        <item itemvalue="Python.selenium_webdriver_mode_chrome" />
         <item itemvalue="Python.selenuiumCookiesFirefox" />
         <item itemvalue="Python.selenuimCookiesChrome" />
         <item itemvalue="Python.seleniumFormFirefox" />
-        <item itemvalue="Python.seleniumFormChrome" />
-        <item itemvalue="Python.main_firefox (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +213,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_python$seleniumForm_chrome.coverage" NAME="seleniumForm_chrome Coverage Results" MODIFIED="1678980183047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chromedriver" />
     <SUITE FILE_PATH="coverage/selenium_python$main.coverage" NAME="main_firefox Coverage Results" MODIFIED="1678962325486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chromedriver" />
-    <SUITE FILE_PATH="coverage/selenium_python$selenuiumCookiesFirefox.coverage" NAME="selenuiumCookiesFirefox Coverage Results" MODIFIED="1678990887603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firefoxdriver" />
+    <SUITE FILE_PATH="coverage/selenium_python$selenuiumCookiesFirefox.coverage" NAME="selenuiumCookiesFirefox Coverage Results" MODIFIED="1678990951794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firefoxdriver" />
+    <SUITE FILE_PATH="coverage/selenium_python$selenium_webdriver_mode_chrome.coverage" NAME="selenium_webdriver_mode_chrome Coverage Results" MODIFIED="1678991623392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chromedriver" />
+    <SUITE FILE_PATH="coverage/selenium_python$selenium_webdriver_mode_firefox.coverage" NAME="selenium_webdriver_mode_firefox Coverage Results" MODIFIED="1678992244813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firefoxdriver" />
     <SUITE FILE_PATH="coverage/selenium_python$selenuimCookiesChrome.coverage" NAME="selenuimCookiesChrome Coverage Results" MODIFIED="1678985630810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chromedriver" />
     <SUITE FILE_PATH="coverage/selenium_python$main_chrome.coverage" NAME="main_chrome Coverage Results" MODIFIED="1678969486912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chromedriver" />
     <SUITE FILE_PATH="coverage/selenium_python$seleniumForm_firefox.coverage" NAME="seleniumForm_firefox Coverage Results" MODIFIED="1678981197274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firefoxdriver" />
