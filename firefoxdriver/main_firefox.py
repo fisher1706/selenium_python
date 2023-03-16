@@ -2,22 +2,28 @@ from selenium import webdriver
 import time
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
+from fake_useragent import UserAgent
 
 
-url_1 = "https://www.instagram.com"
-url_2 = "https://stackoverflow.com"
+url_3 = "https://www.whatismybrowser.com/detect/what-is-my-user-agent"
 
 
-driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+user_agent = UserAgent()
+options = webdriver.FirefoxOptions()
+# options.set_preference("general.useragent.override", "Hello Friend")
+options.set_preference("general.useragent.override", user_agent.random)
+
+
+driver = webdriver.Firefox(
+    service=Service(GeckoDriverManager().install()),
+    options=options
+)
 
 
 try:
-    driver.get(url=url_1)
+    driver.get(url=url_3)
     time.sleep(2)
     driver.get_screenshot_as_file("1.png")
-    driver.get(url=url_2)
-    time.sleep(2)
-    driver.get_screenshot_as_file("2.png")
     driver.refresh()
     time.sleep(2)
 except Exception as ex:

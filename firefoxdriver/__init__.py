@@ -1,1 +1,2 @@
 # https://www.youtube.com/watch?v=r4OY7hp4yd8&list=PLqGS6O1-DZLp1kgiQNpueIMCHRNzgHa1r&index=2
+# https://github.com/pythontoday/selenium_python/blob/master/firefoxdriver/01_02_03_selenium_install_useragent_proxy_firefox.py

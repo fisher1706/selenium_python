@@ -3,8 +3,10 @@ attrs==22.2.0
 certifi==2022.12.7
 charset-normalizer==3.1.0
 exceptiongroup==1.1.1
+fake-useragent==1.1.1
 h11==0.14.0
 idna==3.4
+importlib-resources==5.12.0
 outcome==1.2.0
 packaging==23.0
 PySocks==1.7.1
@@ -19,3 +21,4 @@ trio-websocket==0.10.0
 urllib3==1.26.15
 webdriver-manager==3.8.5
 wsproto==1.2.0
+zipp==3.15.0
