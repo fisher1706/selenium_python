@@ -1,5 +1,5 @@
-user_name = "vb_login_username"
-user_password = "vb_login_password"
+user_name = "username"
+user_password = "password"
 
-name = 'zapel'
-password = '170678'
+name = 'zapefondy@gmail.com'
+password = '_zapel_fisher'
